@@ -8,6 +8,7 @@
     "build": "sanipack build",
     "watch": "sanipack build --watch",
     "dev": "sanipack build --watch",
+    "test": "",
     "prepublishOnly": "sanipack build && sanipack verify"
   },
   "repository": {},
@@ -21,7 +22,7 @@
     "@sanity/ui": "^0.37.7"
   },
   "devDependencies": {
-    "eslint": "^7.32.0",
+    "eslint": "^8",
     "eslint-config-prettier": "^8.5.0",
     "eslint-config-sanity": "^6.0.0",
     "eslint-plugin-react": "^7.29.4",
@@ -29,7 +30,8 @@
     "sanipack": "^2.1.0"
   },
   "peerDependencies": {
-    "react": "^17.0.0"
+    "react": "<18",
+    "react-dom": "<18"
   },
   "prettier": {
     "semi": false,
