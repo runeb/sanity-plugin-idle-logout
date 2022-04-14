@@ -18,15 +18,15 @@
   "author": "Rune Botten <rune@sanity.io>",
   "license": "MIT",
   "dependencies": {
-    "prop-types": "^15.8.1"
+    "@sanity/ui": "^0.37.7"
   },
   "devDependencies": {
-    "sanipack": "^2.1.0",
-    "prettier": "^2.6.2",
     "eslint": "^7.32.0",
     "eslint-config-prettier": "^8.5.0",
     "eslint-config-sanity": "^6.0.0",
-    "eslint-plugin-react": "^7.29.4"
+    "eslint-plugin-react": "^7.29.4",
+    "prettier": "^2.6.2",
+    "sanipack": "^2.1.0"
   },
   "peerDependencies": {
     "react": "^17.0.0"
